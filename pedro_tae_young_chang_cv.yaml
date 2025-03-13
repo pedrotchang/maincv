@@ -18,7 +18,6 @@ cv:
         date:
         start_date: 2025-02
         end_date: present
-        location: Home
         summary: A self-hosted homelab built on baremetal using GitOps best practices powered by Kubernetes using Talos Linux, FluxCD and Omni.
         highlights:
           - Successfully deployed Linkding self-hosted whilst connecting to external PostgreSQL database in an external Data cluster with ExternalDNS and Cloudflare Tunnel
@@ -28,7 +27,6 @@ cv:
         date:
         start_date: 2022-10
         end_date: 2022-11
-        location: Remote
         summary:
         highlights:
           - Drove a successful website enhancement initiative alongside product management and design teams, elevating traffic levels by 30% while ensuring functionality and user experience across all devices.

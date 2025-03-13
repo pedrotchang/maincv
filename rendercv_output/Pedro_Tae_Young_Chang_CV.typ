@@ -476,16 +476,16 @@
 #two-col-entry(
   left-content: [
     #strong[Homelab]
-    #v(-design-text-leading)
-
+  ],
+  right-content: [
+    Feb 2025 – present
+  ],
+)
+#one-col-entry(
+  content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A self-hosted homelab built on baremetal using GitOps best practices powered by Kubernetes using Talos Linux, FluxCD and Omni.])], column-gutter: 0cm)
 
 #v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Successfully deployed Linkding self-hosted whilst connecting to external PostgreSQL database in an external Data cluster with ExternalDNS and Cloudflare Tunnel],[Implemented External Secrets Operator to link with Azure Key Vault.],[FluxCD CI\/CD implementation for optimal GitOps with concurrent updating of apps using Mend Renovate Bot.],)
-  ],
-  right-content: [
-    Home
-
-Feb 2025 – present
   ],
 )
 
@@ -493,14 +493,14 @@ Feb 2025 – present
 #two-col-entry(
   left-content: [
     #strong[Give Water Give Life | Non-Profit Website]
-    #v(-design-text-leading)
-
-    #v(design-highlights-top-margin);#highlights([Drove a successful website enhancement initiative alongside product management and design teams, elevating traffic levels by 30\% while ensuring functionality and user experience across all devices.],[Boosted outreach and produced donations by 10\% to provide clean water to multiple villages.],[Facilitated over 15 cross-functional meetings with designers to ensure alignment on client requirements; revitalized communication processes, contributing to a 20\% reduction in project timelines and improving team collaboration.],)
   ],
   right-content: [
-    Remote
-
-Oct 2022 – Nov 2022
+    Oct 2022 – Nov 2022
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Drove a successful website enhancement initiative alongside product management and design teams, elevating traffic levels by 30\% while ensuring functionality and user experience across all devices.],[Boosted outreach and produced donations by 10\% to provide clean water to multiple villages.],[Facilitated over 15 cross-functional meetings with designers to ensure alignment on client requirements; revitalized communication processes, contributing to a 20\% reduction in project timelines and improving team collaboration.],)
   ],
 )
 

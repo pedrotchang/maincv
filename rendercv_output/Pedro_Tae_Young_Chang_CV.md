@@ -17,7 +17,6 @@ I’m an aspiring DevOps Engineer with hands-on experience in automating deploym
 ## Homelab
 
 - Feb 2025 – present
-- Home
 - Successfully deployed Linkding self-hosted whilst connecting to external PostgreSQL database in an external Data cluster with ExternalDNS and Cloudflare Tunnel
 - Implemented External Secrets Operator to link with Azure Key Vault.
 - FluxCD CI/CD implementation for optimal GitOps with concurrent updating of apps using Mend Renovate Bot.
@@ -25,7 +24,6 @@ I’m an aspiring DevOps Engineer with hands-on experience in automating deploym
 ## Give Water Give Life | Non-Profit Website
 
 - Oct 2022 – Nov 2022
-- Remote
 - Drove a successful website enhancement initiative alongside product management and design teams, elevating traffic levels by 30% while ensuring functionality and user experience across all devices.
 - Boosted outreach and produced donations by 10% to provide clean water to multiple villages.
 - Facilitated over 15 cross-functional meetings with designers to ensure alignment on client requirements; revitalized communication processes, contributing to a 20% reduction in project timelines and improving team collaboration.
