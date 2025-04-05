@@ -478,7 +478,7 @@
     #strong[DevOps Associate], KubeCraft -- Remote
   ],
   right-content: [
-    Mar 2025 – present
+    Dec 2024 – present
   ],
 )
 #one-col-entry(

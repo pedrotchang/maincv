@@ -16,7 +16,7 @@ I’m a DevOps Engineer with hands-on experience in automating deployments using
 
 ## KubeCraft, DevOps Associate
 
-- Mar 2025 – present
+- Dec 2024 – present
 - Remote
 - Designed and maintained a sophisticated self-hosted infrastructure utilizing GitOps methodologies and modern DevOps practices.
 - Built and managed a bare metal Kubernetes cluster powered by Talos Linux, FluxCD, and Omni for comprehensive cluster management.
