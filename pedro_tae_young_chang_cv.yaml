@@ -11,28 +11,26 @@ cv:
       username: pedrotchang
   sections:
     summary:
-      - I’m an aspiring DevOps Engineer with hands-on experience in automating deployments using GitOps FluxCD, managing Kubernetes clusters on Talos Linux, and securing cloud environments with Azure Key Vault and External Secrets Operator. I’m proficient in deploying and scaling applications with Kubernetes, managing databases using CloudNative PG, and ensuring system reliability through monitoring with Prometheus and Grafana. I’m eager to leverage my technical skills, problem-solving abilities, and collaborative mindset to contribute to a forward-thinking team driving innovation in software delivery.
-    projects:
-      - name: Homelab
-        link: https://github.com/pedrotchang/homelab
+      - I’m a DevOps Engineer with hands-on experience in automating deployments using GitOps FluxCD, managing Kubernetes clusters on Talos Linux, and securing cloud environments with Azure Key Vault and External Secrets Operator. I’m proficient in deploying and scaling applications with Kubernetes, managing databases using CloudNative PG, and ensuring system reliability through monitoring with Prometheus and Grafana. I’m eager to leverage my technical skills, problem-solving abilities, and collaborative mindset to contribute to a forward-thinking team driving innovation in software delivery.
+    experience:
+      - company: KubeCraft
+        position: DevOps Associate
         date:
-        start_date: 2025-02
+        start_date: 2025-03
         end_date: present
-        summary: A self-hosted homelab built on baremetal using GitOps best practices powered by Kubernetes using Talos Linux, FluxCD and Omni.
-        highlights:
-          - Successfully deployed Linkding self-hosted whilst connecting to external PostgreSQL database in an external Data cluster with ExternalDNS and Cloudflare Tunnel
-          - Implemented External Secrets Operator to link with Azure Key Vault.
-          - FluxCD CI/CD implementation for optimal GitOps with concurrent updating of apps using Mend Renovate Bot.
-      - name: Give Water Give Life | Non-Profit Website
-        date:
-        start_date: 2022-10
-        end_date: 2022-11
+        location: Remote
         summary:
         highlights:
-          - Drove a successful website enhancement initiative alongside product management and design teams, elevating traffic levels by 30% while ensuring functionality and user experience across all devices.
-          - Boosted outreach and produced donations by 10% to provide clean water to multiple villages.
-          - Facilitated over 15 cross-functional meetings with designers to ensure alignment on client requirements; revitalized communication processes, contributing to a 20% reduction in project timelines and improving team collaboration.
-    experience:
+          - Designed and maintained a sophisticated self-hosted infrastructure utilizing GitOps methodologies and modern DevOps practices.
+          - Built and managed a bare metal Kubernetes cluster powered by Talos Linux, FluxCD, and Omni for comprehensive cluster management.
+          - Implemented Cilium as the primary CNI solution across all clusters, prioritizing its advanced networking capabilities over traditional options like Flannel.
+          - Deployed and managed CloudnativePG operator for PostgreSQL database orchestration, enabling reliable database services for applications.
+          - Successfully deployed Linkding as a self-hosted bookmark management solution with external PostgreSQL database connectivity - https://linkding.seyzahl.com
+          - Configured ExternalDNS and Cloudflare Tunnel for automated DNS management and secure external access to services.
+          - Enhanced security through implementation of External Secrets Operator integrated with Azure Key Vault for centralized secrets management.
+          - Established efficient CI/CD pipelines using FluxCD and Flux Operator for GitOps-based deployment, configuration management, and continuous reconciliation.
+          - Implemented infrastructure monitoring with Grafana and Prometheus.
+          - Automated dependency updates across applications using Mend Renovate Bot for consistent maintenance and security patching.
       - company: Brite Service Industries
         position: IT Consultant
         date:
@@ -56,33 +54,31 @@ cv:
           - Designed an advanced faceless YouTube automation system, integrating AI tools with API including Claude.ai and Eleven Labs; streamlined content generation processes, reducing video production time by 40%.
           - Implemented a robust automation solution for generating images and voiceovers directly from source materials, increasing output to 20+ videos weekly while enhancing overall production quality and consistency.
           - Launched a series of Airtable workflows that automated repetitive tasks, reducing manual data entry time by 10 hours weekly and freeing up resources for more strategic initiatives, ultimately enhancing project delivery.
-      - company: BLOIDY
-        position: Operations Manager
+    projects:
+      - name: Homelab
+        link: https://github.com/pedrotchang/homelab
         date:
-        start_date: 2020-06
-        end_date: 2024-06
-        location: Los Angeles
+        start_date: 2025-02
+        end_date: present
+        summary: A self-hosted homelab built on baremetal using GitOps best practices powered by Kubernetes using Talos Linux, FluxCD and Omni.
+        highlights:
+          - Successfully deployed Linkding self-hosted whilst connecting to external PostgreSQL database in an external Data cluster with ExternalDNS and Cloudflare Tunnel
+          - Implemented External Secrets Operator to link with Azure Key Vault.
+          - FluxCD CI/CD implementation for optimal GitOps with concurrent updating of apps using Mend Renovate Bot.
+      - name: Give Water Give Life | Non-Profit Website
+        date:
+        start_date: 2022-10
+        end_date: 2022-11
         summary:
         highlights:
-          - Managed daily accounts payable operations with consistent processing of 25-30 orders per day; this operational consistency achieved enhanced vendor trust and negotiation power for future contracts.
-          - Established strong relationships with 6 suppliers and 4 logistics teams, optimizing order processing workflows; efforts resulted in a reduction of wasted time by 35 minutes per delivery and refined customer experience across the board.
-          - Assembled and configured 30+ custom workstations optimized for CAD applications and enterprise software, ensuring hardware compatibility and optimal performance.
-      - company: SpeedKeyz
-        position: Executive Assistant
-        date:
-        start_date: 2019-11
-        end_date: 2020-06
-        location: Los Angeles
-        summary:
-        highlights:
-          - Launched a project coordination initiative for 15 clients to leverage Slack and Asana, improving project tracking and is now utilized by over 5 departments within the organization.
-          - Created an onboarding process to optimize data processing for the team, resulting in a 20%-30% increase in bookings and customer satisfaction.
-          - Secured contracts with three new vendors for operational tasks, resulting in a 20% available time for senior staff to focus on high-impact client engagements and strategic initiatives.
+          - Drove a successful website enhancement initiative alongside product management and design teams, elevating traffic levels by 30% while ensuring functionality and user experience across all devices.
+          - Boosted outreach and produced donations by 10% to provide clean water to multiple villages.
+          - Facilitated over 15 cross-functional meetings with designers to ensure alignment on client requirements; revitalized communication processes, contributing to a 20% reduction in project timelines and improving team collaboration.
     skills:
       - label: Languages
-        details: Ruby, JavaScript, HTML, CSS
+        details: Python, Go, Ruby, JavaScript, HTML, CSS
       - label: Technologies
-        details: Ruby on Rails, React, Linux, Neovim, NextJS, Postgres, APIs, Git, GitHub, Outlook, Jira, Notion, AI Tools
+        details: Kubernetes, FluxCD, Linux, Vim, Postgres, Rest-API, Git, GitHub, Jira, Notion, AI Tools
       - label: Additional
         details: Portuguese (fluent), Spanish (conversational), Korean (conversational)
     education:

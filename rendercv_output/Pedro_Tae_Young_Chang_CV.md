@@ -10,25 +10,24 @@
 
 # Summary
 
-I’m an aspiring DevOps Engineer with hands-on experience in automating deployments using GitOps FluxCD, managing Kubernetes clusters on Talos Linux, and securing cloud environments with Azure Key Vault and External Secrets Operator. I’m proficient in deploying and scaling applications with Kubernetes, managing databases using CloudNative PG, and ensuring system reliability through monitoring with Prometheus and Grafana. I’m eager to leverage my technical skills, problem-solving abilities, and collaborative mindset to contribute to a forward-thinking team driving innovation in software delivery.
-
-# Projects
-
-## Homelab
-
-- Feb 2025 – present
-- Successfully deployed Linkding self-hosted whilst connecting to external PostgreSQL database in an external Data cluster with ExternalDNS and Cloudflare Tunnel
-- Implemented External Secrets Operator to link with Azure Key Vault.
-- FluxCD CI/CD implementation for optimal GitOps with concurrent updating of apps using Mend Renovate Bot.
-
-## Give Water Give Life | Non-Profit Website
-
-- Oct 2022 – Nov 2022
-- Drove a successful website enhancement initiative alongside product management and design teams, elevating traffic levels by 30% while ensuring functionality and user experience across all devices.
-- Boosted outreach and produced donations by 10% to provide clean water to multiple villages.
-- Facilitated over 15 cross-functional meetings with designers to ensure alignment on client requirements; revitalized communication processes, contributing to a 20% reduction in project timelines and improving team collaboration.
+I’m a DevOps Engineer with hands-on experience in automating deployments using GitOps FluxCD, managing Kubernetes clusters on Talos Linux, and securing cloud environments with Azure Key Vault and External Secrets Operator. I’m proficient in deploying and scaling applications with Kubernetes, managing databases using CloudNative PG, and ensuring system reliability through monitoring with Prometheus and Grafana. I’m eager to leverage my technical skills, problem-solving abilities, and collaborative mindset to contribute to a forward-thinking team driving innovation in software delivery.
 
 # Experience
+
+## KubeCraft, DevOps Associate
+
+- Mar 2025 – present
+- Remote
+- Designed and maintained a sophisticated self-hosted infrastructure utilizing GitOps methodologies and modern DevOps practices.
+- Built and managed a bare metal Kubernetes cluster powered by Talos Linux, FluxCD, and Omni for comprehensive cluster management.
+- Implemented Cilium as the primary CNI solution across all clusters, prioritizing its advanced networking capabilities over traditional options like Flannel.
+- Deployed and managed CloudnativePG operator for PostgreSQL database orchestration, enabling reliable database services for applications.
+- Successfully deployed Linkding as a self-hosted bookmark management solution with external PostgreSQL database connectivity - https://linkding.seyzahl.com
+- Configured ExternalDNS and Cloudflare Tunnel for automated DNS management and secure external access to services.
+- Enhanced security through implementation of External Secrets Operator integrated with Azure Key Vault for centralized secrets management.
+- Established efficient CI/CD pipelines using FluxCD and Flux Operator for GitOps-based deployment, configuration management, and continuous reconciliation.
+- Implemented infrastructure monitoring with Grafana and Prometheus.
+- Automated dependency updates across applications using Mend Renovate Bot for consistent maintenance and security patching.
 
 ## Brite Service Industries, IT Consultant
 
@@ -47,26 +46,26 @@ I’m an aspiring DevOps Engineer with hands-on experience in automating deploym
 - Implemented a robust automation solution for generating images and voiceovers directly from source materials, increasing output to 20+ videos weekly while enhancing overall production quality and consistency.
 - Launched a series of Airtable workflows that automated repetitive tasks, reducing manual data entry time by 10 hours weekly and freeing up resources for more strategic initiatives, ultimately enhancing project delivery.
 
-## BLOIDY, Operations Manager
+# Projects
 
-- June 2020 – June 2024
-- Los Angeles
-- Managed daily accounts payable operations with consistent processing of 25-30 orders per day; this operational consistency achieved enhanced vendor trust and negotiation power for future contracts.
-- Established strong relationships with 6 suppliers and 4 logistics teams, optimizing order processing workflows; efforts resulted in a reduction of wasted time by 35 minutes per delivery and refined customer experience across the board.
-- Assembled and configured 30+ custom workstations optimized for CAD applications and enterprise software, ensuring hardware compatibility and optimal performance.
+## Homelab
 
-## SpeedKeyz, Executive Assistant
+- Feb 2025 – present
+- Successfully deployed Linkding self-hosted whilst connecting to external PostgreSQL database in an external Data cluster with ExternalDNS and Cloudflare Tunnel
+- Implemented External Secrets Operator to link with Azure Key Vault.
+- FluxCD CI/CD implementation for optimal GitOps with concurrent updating of apps using Mend Renovate Bot.
 
-- Nov 2019 – June 2020
-- Los Angeles
-- Launched a project coordination initiative for 15 clients to leverage Slack and Asana, improving project tracking and is now utilized by over 5 departments within the organization.
-- Created an onboarding process to optimize data processing for the team, resulting in a 20%-30% increase in bookings and customer satisfaction.
-- Secured contracts with three new vendors for operational tasks, resulting in a 20% available time for senior staff to focus on high-impact client engagements and strategic initiatives.
+## Give Water Give Life | Non-Profit Website
+
+- Oct 2022 – Nov 2022
+- Drove a successful website enhancement initiative alongside product management and design teams, elevating traffic levels by 30% while ensuring functionality and user experience across all devices.
+- Boosted outreach and produced donations by 10% to provide clean water to multiple villages.
+- Facilitated over 15 cross-functional meetings with designers to ensure alignment on client requirements; revitalized communication processes, contributing to a 20% reduction in project timelines and improving team collaboration.
 
 # Skills
 
-- Languages: Ruby, JavaScript, HTML, CSS
-- Technologies: Ruby on Rails, React, Linux, Neovim, NextJS, Postgres, APIs, Git, GitHub, Outlook, Jira, Notion, AI Tools
+- Languages: Python, Go, Ruby, JavaScript, HTML, CSS
+- Technologies: Kubernetes, FluxCD, Linux, Vim, Postgres, Rest-API, Git, GitHub, Jira, Notion, AI Tools
 - Additional: Portuguese (fluent), Spanish (conversational), Korean (conversational)
 # Education
 

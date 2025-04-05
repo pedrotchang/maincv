@@ -466,8 +466,57 @@
 
 
 #one-col-entry(
-  content: [I’m an aspiring DevOps Engineer with hands-on experience in automating deployments using GitOps FluxCD, managing Kubernetes clusters on Talos Linux, and securing cloud environments with Azure Key Vault and External Secrets Operator. I’m proficient in deploying and scaling applications with Kubernetes, managing databases using CloudNative PG, and ensuring system reliability through monitoring with Prometheus and Grafana. I’m eager to leverage my technical skills, problem-solving abilities, and collaborative mindset to contribute to a forward-thinking team driving innovation in software delivery.]
+  content: [I’m a DevOps Engineer with hands-on experience in automating deployments using GitOps FluxCD, managing Kubernetes clusters on Talos Linux, and securing cloud environments with Azure Key Vault and External Secrets Operator. I’m proficient in deploying and scaling applications with Kubernetes, managing databases using CloudNative PG, and ensuring system reliability through monitoring with Prometheus and Grafana. I’m eager to leverage my technical skills, problem-solving abilities, and collaborative mindset to contribute to a forward-thinking team driving innovation in software delivery.]
 )
+
+
+== Experience
+
+
+#two-col-entry(
+  left-content: [
+    #strong[DevOps Associate], KubeCraft -- Remote
+  ],
+  right-content: [
+    Mar 2025 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Designed and maintained a sophisticated self-hosted infrastructure utilizing GitOps methodologies and modern DevOps practices.],[Built and managed a bare metal Kubernetes cluster powered by Talos Linux, FluxCD, and Omni for comprehensive cluster management.],[Implemented Cilium as the primary CNI solution across all clusters, prioritizing its advanced networking capabilities over traditional options like Flannel.],[Deployed and managed CloudnativePG operator for PostgreSQL database orchestration, enabling reliable database services for applications.],[Successfully deployed Linkding as a self-hosted bookmark management solution with external PostgreSQL database connectivity - https:\/\/linkding.seyzahl.com],[Configured ExternalDNS and Cloudflare Tunnel for automated DNS management and secure external access to services.],[Enhanced security through implementation of External Secrets Operator integrated with Azure Key Vault for centralized secrets management.],[Established efficient CI\/CD pipelines using FluxCD and Flux Operator for GitOps-based deployment, configuration management, and continuous reconciliation.],[Implemented infrastructure monitoring with Grafana and Prometheus.],[Automated dependency updates across applications using Mend Renovate Bot for consistent maintenance and security patching.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[IT Consultant], Brite Service Industries -- Los Angeles
+  ],
+  right-content: [
+    July 2024 – Dec 2024
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Collaborated directly with C-suite executives to design and implement strategic operational frameworks, resulting in a 25\% enhancement in overall organizational performance through data-driven decision-making processes.],[Authored a detailed strategic plan that led to the successful acquisition of a \$300K contract with Mercy House; the plan included innovative approaches that are now standard practice within the organization.],[Crafted comprehensive pamphlets on Brite Service Industries and industry-specific topics, enhancing client comprehension by directly addressing top five most frequently misunderstood concepts within the service sector.],[Directed the adoption of new technologies such as Teams, Calendly, and Loom, overseeing the onboarding of these integrations to boost productivity and communication with over 150 clients.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Freelance], MediaX AI -- Los Angeles
+  ],
+  right-content: [
+    June 2024 – Feb 2025
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Designed an advanced faceless YouTube automation system, integrating AI tools with API including Claude.ai and Eleven Labs; streamlined content generation processes, reducing video production time by 40\%.],[Implemented a robust automation solution for generating images and voiceovers directly from source materials, increasing output to 20+ videos weekly while enhancing overall production quality and consistency.],[Launched a series of Airtable workflows that automated repetitive tasks, reducing manual data entry time by 10 hours weekly and freeing up resources for more strategic initiatives, ultimately enhancing project delivery.],)
+  ],
+)
+
 
 
 == Projects
@@ -506,79 +555,15 @@
 
 
 
-== Experience
-
-
-#two-col-entry(
-  left-content: [
-    #strong[IT Consultant], Brite Service Industries -- Los Angeles
-  ],
-  right-content: [
-    July 2024 – Dec 2024
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Collaborated directly with C-suite executives to design and implement strategic operational frameworks, resulting in a 25\% enhancement in overall organizational performance through data-driven decision-making processes.],[Authored a detailed strategic plan that led to the successful acquisition of a \$300K contract with Mercy House; the plan included innovative approaches that are now standard practice within the organization.],[Crafted comprehensive pamphlets on Brite Service Industries and industry-specific topics, enhancing client comprehension by directly addressing top five most frequently misunderstood concepts within the service sector.],[Directed the adoption of new technologies such as Teams, Calendly, and Loom, overseeing the onboarding of these integrations to boost productivity and communication with over 150 clients.],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Freelance], MediaX AI -- Los Angeles
-  ],
-  right-content: [
-    June 2024 – Feb 2025
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Designed an advanced faceless YouTube automation system, integrating AI tools with API including Claude.ai and Eleven Labs; streamlined content generation processes, reducing video production time by 40\%.],[Implemented a robust automation solution for generating images and voiceovers directly from source materials, increasing output to 20+ videos weekly while enhancing overall production quality and consistency.],[Launched a series of Airtable workflows that automated repetitive tasks, reducing manual data entry time by 10 hours weekly and freeing up resources for more strategic initiatives, ultimately enhancing project delivery.],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Operations Manager], BLOIDY -- Los Angeles
-  ],
-  right-content: [
-    June 2020 – June 2024
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Managed daily accounts payable operations with consistent processing of 25-30 orders per day; this operational consistency achieved enhanced vendor trust and negotiation power for future contracts.],[Established strong relationships with 6 suppliers and 4 logistics teams, optimizing order processing workflows; efforts resulted in a reduction of wasted time by 35 minutes per delivery and refined customer experience across the board.],[Assembled and configured 30+ custom workstations optimized for CAD applications and enterprise software, ensuring hardware compatibility and optimal performance.],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Executive Assistant], SpeedKeyz -- Los Angeles
-  ],
-  right-content: [
-    Nov 2019 – June 2020
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Launched a project coordination initiative for 15 clients to leverage Slack and Asana, improving project tracking and is now utilized by over 5 departments within the organization.],[Created an onboarding process to optimize data processing for the team, resulting in a 20\%-30\% increase in bookings and customer satisfaction.],[Secured contracts with three new vendors for operational tasks, resulting in a 20\% available time for senior staff to focus on high-impact client engagements and strategic initiatives.],)
-  ],
-)
-
-
-
 == Skills
 
 
 #one-col-entry(
-  content: [#strong[Languages:] Ruby, JavaScript, HTML, CSS]
+  content: [#strong[Languages:] Python, Go, Ruby, JavaScript, HTML, CSS]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Technologies:] Ruby on Rails, React, Linux, Neovim, NextJS, Postgres, APIs, Git, GitHub, Outlook, Jira, Notion, AI Tools]
+  content: [#strong[Technologies:] Kubernetes, FluxCD, Linux, Vim, Postgres, Rest-API, Git, GitHub, Jira, Notion, AI Tools]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
