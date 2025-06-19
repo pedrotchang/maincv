@@ -12,6 +12,13 @@ cv:
   sections:
     summary:
       - I’m a DevOps Engineer with hands-on experience in automating deployments using GitOps FluxCD, managing Kubernetes clusters on Talos Linux, and securing cloud environments with Azure Key Vault and External Secrets Operator. I’m proficient in deploying and scaling applications with Kubernetes, managing databases using CloudNative PG, and ensuring system reliability through monitoring with Prometheus and Grafana. I’m eager to leverage my technical skills, problem-solving abilities, and collaborative mindset to contribute to a forward-thinking team driving innovation in software delivery.
+    certificates:
+      - name: CKAD Certified Kubernetes Application Developer
+        date: 2025-06-05
+        highlights:
+          - "Issuing Organization: Linux Foundation"
+          - "Certificate ID: LF-8kytsvuaq1"
+          - "Credential: https://www.credly.com/badges/aa8b881e-118c-4dcb-8f80-4e3f2de7d848/linked_in_profile"
     experience:
       - company: KubeCraft
         position: DevOps Associate
@@ -40,9 +47,8 @@ cv:
         summary:
         highlights:
           - Collaborated directly with C-suite executives to design and implement strategic operational frameworks, resulting in a 25% enhancement in overall organizational performance through data-driven decision-making processes.
-          - Authored a detailed strategic plan that led to the successful acquisition of a $300K contract with Mercy House; the plan included innovative approaches that are now standard practice within the organization.
           - Crafted comprehensive pamphlets on Brite Service Industries and industry-specific topics, enhancing client comprehension by directly addressing top five most frequently misunderstood concepts within the service sector.
-          - Directed the adoption of new technologies such as Teams, Calendly, and Loom, overseeing the onboarding of these integrations to boost productivity and communication with over 150 clients.
+          - Directed the adoption of new technologies such as Teams, Calendly, and Loom, overseeing the onboarding of these integrations to boost productivity and communication with over 30 clients.
       - company: MediaX AI
         position: Freelance
         date:
@@ -90,7 +96,7 @@ cv:
         end_date: 2022-07
         location: Remote
         summary: Completed a four-month full-stack web development bootcamp focusing on Ruby, Rails, JavaScript, Vue.js, API-driven development, Git, and team collaboration.
-        highlights:
+        #highlights:
       - institution: Loyola Marymount University
         area: Business Administration
         degree: Coursework toward B.A.

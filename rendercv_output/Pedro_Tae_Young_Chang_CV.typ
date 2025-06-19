@@ -470,6 +470,25 @@
 )
 
 
+== Certificates
+
+
+#two-col-entry(
+  left-content: [
+    #strong[CKAD Certified Kubernetes Application Developer]
+  ],
+  right-content: [
+    June 2025
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Issuing Organization: Linux Foundation],[Certificate ID: LF-8kytsvuaq1],[Credential: https:\/\/www.credly.com\/badges\/aa8b881e-118c-4dcb-8f80-4e3f2de7d848\/linked\_in\_profile],)
+  ],
+)
+
+
+
 == Experience
 
 
@@ -498,7 +517,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Collaborated directly with C-suite executives to design and implement strategic operational frameworks, resulting in a 25\% enhancement in overall organizational performance through data-driven decision-making processes.],[Authored a detailed strategic plan that led to the successful acquisition of a \$300K contract with Mercy House; the plan included innovative approaches that are now standard practice within the organization.],[Crafted comprehensive pamphlets on Brite Service Industries and industry-specific topics, enhancing client comprehension by directly addressing top five most frequently misunderstood concepts within the service sector.],[Directed the adoption of new technologies such as Teams, Calendly, and Loom, overseeing the onboarding of these integrations to boost productivity and communication with over 150 clients.],)
+    #v(design-highlights-top-margin);#highlights([Collaborated directly with C-suite executives to design and implement strategic operational frameworks, resulting in a 25\% enhancement in overall organizational performance through data-driven decision-making processes.],[Crafted comprehensive pamphlets on Brite Service Industries and industry-specific topics, enhancing client comprehension by directly addressing top five most frequently misunderstood concepts within the service sector.],[Directed the adoption of new technologies such as Teams, Calendly, and Loom, overseeing the onboarding of these integrations to boost productivity and communication with over 30 clients.],)
   ],
 )
 
