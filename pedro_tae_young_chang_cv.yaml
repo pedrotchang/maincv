@@ -38,6 +38,16 @@ cv:
           - Established efficient CI/CD pipelines using FluxCD and Flux Operator for GitOps-based deployment, configuration management, and continuous reconciliation.
           - Implemented infrastructure monitoring with Grafana and Prometheus.
           - Automated dependency updates across applications using Mend Renovate Bot for consistent maintenance and security patching.
+      - company: Tesla
+        position: Production Participant
+        date:
+        start_date: 2025-07-08
+        end_date: 2025-07-10
+        summary:
+        highlights:
+          - "Contributed 21 hours over 3 days to Tesla Diner promotional content creation"
+          - "Collaborated with Tesla employees and production team to authentically represent the Tesla Diner experience"
+          - "Gained firsthand insight into Tesla's brand storytelling and marketing approach through on-set experience"
       - company: Brite Service Industries
         position: IT Consultant
         date:

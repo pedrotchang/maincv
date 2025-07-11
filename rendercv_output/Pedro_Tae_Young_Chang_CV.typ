@@ -509,6 +509,21 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
+    #strong[Production Participant], Tesla 
+  ],
+  right-content: [
+    July 2025 – July 2025
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Contributed 21 hours over 3 days to Tesla Diner promotional content creation],[Collaborated with Tesla employees and production team to authentically represent the Tesla Diner experience],[Gained firsthand insight into Tesla's brand storytelling and marketing approach through on-set experience],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
     #strong[IT Consultant], Brite Service Industries -- Los Angeles
   ],
   right-content: [

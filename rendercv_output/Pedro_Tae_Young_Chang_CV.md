@@ -38,6 +38,13 @@ I’m a DevOps Engineer with hands-on experience in automating deployments using
 - Implemented infrastructure monitoring with Grafana and Prometheus.
 - Automated dependency updates across applications using Mend Renovate Bot for consistent maintenance and security patching.
 
+## Tesla, Production Participant
+
+- July 2025 – July 2025
+- Contributed 21 hours over 3 days to Tesla Diner promotional content creation
+- Collaborated with Tesla employees and production team to authentically represent the Tesla Diner experience
+- Gained firsthand insight into Tesla's brand storytelling and marketing approach through on-set experience
+
 ## Brite Service Industries, IT Consultant
 
 - July 2024 – Dec 2024
