@@ -38,6 +38,17 @@ I’m a DevOps Engineer with hands-on experience in automating deployments using
 - Implemented infrastructure monitoring with Grafana and Prometheus.
 - Automated dependency updates across applications using Mend Renovate Bot for consistent maintenance and security patching.
 
+## Tesla Diner, Manager
+
+- July 2025 – present
+- Los Angeles
+- Promoted from Host to Manager in 2 months, selected from a pool of 150+ employees at the world's only Tesla Diner—a restaurant integrated within a Tesla Supercharger station
+- Manage daily operations where customers order from their vehicles while charging, overseeing dual POS systems: Shift4 POS and Tesla's proprietary kiosk with integrated menu and payment processing
+- Diagnosed and resolved critical modifier discrepancy between Tesla kiosk and Shift4 POS causing order failures; added missing hot matcha modifier to Shift4 POS, eliminating recurring errors
+- Optimized KDS fulfillment workflow by reconfiguring SMS notifications from shakes KDS to dispatch KDS, ensuring customers receive timely text updates for car-side delivery
+- Identified single point of failure in front-of-house operations and successfully advocated for redundant kiosk installation, reducing order errors and improving customer experience
+- Serve as primary technical escalation point for staff, guest, and system issues, troubleshooting in real-time to maintain operational continuity in a fast-paced, technology-dependent environment
+
 ## Tesla, Production Participant
 
 - July 2025 – July 2025
