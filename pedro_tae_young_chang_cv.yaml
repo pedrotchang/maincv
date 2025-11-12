@@ -28,7 +28,7 @@ cv:
         location: Remote
         summary:
         highlights:
-          - Designed and maintained a sophisticated self-hosted infrastructure utilizing GitOps methodologies and modern DevOps practices.
+          - Designed and maintained a sophisticated self-hosted infrastructure utilizing GitOps methodologies and modern DevOps practices - https://github.com/pedrotchang/homelab
           - Built and managed a bare metal Kubernetes cluster powered by Talos Linux, FluxCD, and Omni for comprehensive cluster management.
           - Implemented Cilium as the primary CNI solution across all clusters, prioritizing its advanced networking capabilities over traditional options like Flannel.
           - Deployed and managed CloudnativePG operator for PostgreSQL database orchestration, enabling reliable database services for applications.
