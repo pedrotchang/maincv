@@ -66,9 +66,12 @@ I’m a DevOps Engineer with hands-on experience in automating deployments using
 ## Homelab
 
 - Feb 2025 – present
-- Successfully deployed Linkding self-hosted whilst connecting to external PostgreSQL database in an external Data cluster with ExternalDNS and Cloudflare Tunnel
-- Implemented External Secrets Operator to link with Azure Key Vault.
-- FluxCD CI/CD implementation for optimal GitOps with concurrent updating of apps using Mend Renovate Bot.
+- **Multi-platform architecture:** Orchestrated 2 Kubernetes clusters with Sidero Omni (S3 backups), Proxmox hypervisor, and TrueNAS storage serving NFS/iSCSI to 11+ applications across 280+ declarative configuration files.
+- **Hybrid cloud networking:** Deployed Pangolin server (AWS EC2) with Newt agent in Kubernetes for WireGuard-based, identity-aware reverse proxying of internet-exposed services; implemented Tailscale mesh VPN for private service access.
+- **Multi-cloud security:** Integrated Azure Key Vault for secret management (Pangolin auth, database credentials), Azure Blob Storage for database backups, and AWS S3 for cluster snapshots with SOPS encryption for GitOps compliance.
+- **HA database infrastructure:** Implemented CloudnativePG with 6+ PostgreSQL clusters (3-instance HA) featuring automated Barman backups and 14-day retention.
+- **Advanced networking:** Configured Cilium CNI with eBPF L2 load balancing, Kubernetes Gateway API, Cloudflare Tunnels, and automated DNS management via ExternalDNS.
+- **Automated CI/CD:** Built FluxCD GitOps pipeline with Mend Renovate Bot for continuous dependency updates and Prometheus/Grafana observability stack.
 
 ## Give Water Give Life | Non-Profit Website
 
