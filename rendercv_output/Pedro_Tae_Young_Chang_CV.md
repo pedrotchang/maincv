@@ -27,7 +27,7 @@ I’m a DevOps Engineer with hands-on experience in automating deployments using
 
 - Dec 2024 – present
 - Remote
-- Designed and maintained a sophisticated self-hosted infrastructure utilizing GitOps methodologies and modern DevOps practices.
+- Designed and maintained a sophisticated self-hosted infrastructure utilizing GitOps methodologies and modern DevOps practices - https://github.com/pedrotchang/homelab
 - Built and managed a bare metal Kubernetes cluster powered by Talos Linux, FluxCD, and Omni for comprehensive cluster management.
 - Implemented Cilium as the primary CNI solution across all clusters, prioritizing its advanced networking capabilities over traditional options like Flannel.
 - Deployed and managed CloudnativePG operator for PostgreSQL database orchestration, enabling reliable database services for applications.
@@ -38,7 +38,7 @@ I’m a DevOps Engineer with hands-on experience in automating deployments using
 - Implemented infrastructure monitoring with Grafana and Prometheus.
 - Automated dependency updates across applications using Mend Renovate Bot for consistent maintenance and security patching.
 
-## Tesla Diner, Manager
+## Zero2One, Manager
 
 - July 2025 – present
 - Los Angeles
@@ -48,13 +48,6 @@ I’m a DevOps Engineer with hands-on experience in automating deployments using
 - Optimized KDS fulfillment workflow by reconfiguring SMS notifications from shakes KDS to dispatch KDS, ensuring customers receive timely text updates for car-side delivery
 - Identified single point of failure in front-of-house operations and successfully advocated for redundant kiosk installation, reducing order errors and improving customer experience
 - Serve as primary technical escalation point for staff, guest, and system issues, troubleshooting in real-time to maintain operational continuity in a fast-paced, technology-dependent environment
-
-## Tesla, Production Participant
-
-- July 2025 – July 2025
-- Contributed 21 hours over 3 days to Tesla Diner promotional content creation
-- Collaborated with Tesla employees and production team to authentically represent the Tesla Diner experience
-- Gained firsthand insight into Tesla's brand storytelling and marketing approach through on-set experience
 
 ## Brite Service Industries, IT Consultant
 

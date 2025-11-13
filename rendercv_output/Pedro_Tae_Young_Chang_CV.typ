@@ -502,14 +502,14 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Designed and maintained a sophisticated self-hosted infrastructure utilizing GitOps methodologies and modern DevOps practices.],[Built and managed a bare metal Kubernetes cluster powered by Talos Linux, FluxCD, and Omni for comprehensive cluster management.],[Implemented Cilium as the primary CNI solution across all clusters, prioritizing its advanced networking capabilities over traditional options like Flannel.],[Deployed and managed CloudnativePG operator for PostgreSQL database orchestration, enabling reliable database services for applications.],[Successfully deployed Linkding as a self-hosted bookmark management solution with external PostgreSQL database connectivity - https:\/\/linkding.seyzahl.com],[Configured ExternalDNS and Cloudflare Tunnel for automated DNS management and secure external access to services.],[Enhanced security through implementation of External Secrets Operator integrated with Azure Key Vault for centralized secrets management.],[Established efficient CI\/CD pipelines using FluxCD and Flux Operator for GitOps-based deployment, configuration management, and continuous reconciliation.],[Implemented infrastructure monitoring with Grafana and Prometheus.],[Automated dependency updates across applications using Mend Renovate Bot for consistent maintenance and security patching.],)
+    #v(design-highlights-top-margin);#highlights([Designed and maintained a sophisticated self-hosted infrastructure utilizing GitOps methodologies and modern DevOps practices - https:\/\/github.com\/pedrotchang\/homelab],[Built and managed a bare metal Kubernetes cluster powered by Talos Linux, FluxCD, and Omni for comprehensive cluster management.],[Implemented Cilium as the primary CNI solution across all clusters, prioritizing its advanced networking capabilities over traditional options like Flannel.],[Deployed and managed CloudnativePG operator for PostgreSQL database orchestration, enabling reliable database services for applications.],[Successfully deployed Linkding as a self-hosted bookmark management solution with external PostgreSQL database connectivity - https:\/\/linkding.seyzahl.com],[Configured ExternalDNS and Cloudflare Tunnel for automated DNS management and secure external access to services.],[Enhanced security through implementation of External Secrets Operator integrated with Azure Key Vault for centralized secrets management.],[Established efficient CI\/CD pipelines using FluxCD and Flux Operator for GitOps-based deployment, configuration management, and continuous reconciliation.],[Implemented infrastructure monitoring with Grafana and Prometheus.],[Automated dependency updates across applications using Mend Renovate Bot for consistent maintenance and security patching.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Manager], Tesla Diner -- Los Angeles
+    #strong[Manager], Zero2One -- Los Angeles
   ],
   right-content: [
     July 2025 – present
@@ -518,21 +518,6 @@
 #one-col-entry(
   content: [
     #v(design-highlights-top-margin);#highlights([Promoted from Host to Manager in 2 months, selected from a pool of 150+ employees at the world's only Tesla Diner—a restaurant integrated within a Tesla Supercharger station],[Manage daily operations where customers order from their vehicles while charging, overseeing dual POS systems: Shift4 POS and Tesla's proprietary kiosk with integrated menu and payment processing],[Diagnosed and resolved critical modifier discrepancy between Tesla kiosk and Shift4 POS causing order failures; added missing hot matcha modifier to Shift4 POS, eliminating recurring errors],[Optimized KDS fulfillment workflow by reconfiguring SMS notifications from shakes KDS to dispatch KDS, ensuring customers receive timely text updates for car-side delivery],[Identified single point of failure in front-of-house operations and successfully advocated for redundant kiosk installation, reducing order errors and improving customer experience],[Serve as primary technical escalation point for staff, guest, and system issues, troubleshooting in real-time to maintain operational continuity in a fast-paced, technology-dependent environment],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Production Participant], Tesla 
-  ],
-  right-content: [
-    July 2025 – July 2025
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Contributed 21 hours over 3 days to Tesla Diner promotional content creation],[Collaborated with Tesla employees and production team to authentically represent the Tesla Diner experience],[Gained firsthand insight into Tesla's brand storytelling and marketing approach through on-set experience],)
   ],
 )
 
