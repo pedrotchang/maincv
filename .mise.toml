@@ -1,0 +1,5 @@
+[tools]
+# Install rendercv[full] with required typer version for this repo
+python = { version = "latest", packages = [
+  "rendercv[full]"
+] }

@@ -1,12 +1,12 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.2.0": *
+#import "@preview/rendercv:0.3.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "Pedro Tae Young Chang",
   title: "Pedro Tae Young Chang - CV",
   footer: context { [#emph[Pedro Tae Young Chang -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Mar 2026] ],
+  top-note: [ #emph[Last updated in May 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 8,
+    month: 5,
+    day: 7,
   ),
 )
 
@@ -137,9 +137,19 @@ I’m a DevOps Engineer with hands-on experience in automating deployments using
   main-column-second-row: [
     - Participating in DevSecOps transformation at a cutting-edge space technology company, managing enterprise tool chains for cross-functional teams building mission-critical software.
 
-    - Managing CI\/CD pipelines using GitHub Actions and Docker to streamline build, test, and deployment workflows across engineering teams.
+    - Serving as primary DevOps on-call for production systems including mission-critical Launch and Early Orbit Phase (LEOP) operations supporting satellite launches.
 
-    - Administering Kubernetes clusters and containerized workloads to support scalable, resilient application delivery.
+    - Architected multi-organization GitHub App security infrastructure spanning 4 GitHub organizations and 13+ repositories, migrating from PAT-based to short-lived JWT token authentication with granular permission scoping.
+
+    - Optimized CI\/CD runner infrastructure saving 2+ minutes per workflow run and 3+ hours of compute time daily by pre-installing dependencies and eliminating IPv6 timeout delays affecting 40+ workflows.
+
+    - Designed and deployed comprehensive Azure Monitor alerting system with PagerDuty integration covering AKS clusters, PostgreSQL databases, and storage accounts using reusable Terraform modules and Key Vault secrets management.
+
+    - Identified and remediated security vulnerabilities in CI\/CD pipelines including shell injection patterns and insecure authentication flows across multiple repositories.
+
+    - Reduced InfluxDB error rate by 38\% through root cause analysis of Grafana dashboard Flux queries and development of automated remediation tooling for 200+ affected dashboards.
+
+    - Scaled GitHub Actions runner infrastructure by implementing new compute tiers (4\/8\/12 CPU variants) and horizontal node pool autoscaling to eliminate timeout issues for compute-intensive workloads.
 
     - Provisioning and managing cloud infrastructure on Microsoft Azure using Terraform and Ansible for reproducible, compliant environments.
 
@@ -166,7 +176,7 @@ I’m a DevOps Engineer with hands-on experience in automating deployments using
   main-column-second-row: [
     - Designed and maintained a sophisticated self-hosted infrastructure utilizing GitOps methodologies and modern DevOps practices
 
-      - https:\/\/github.com\/pedrotchang\/homelab
+    - https:\/\/github.com\/pedrotchang\/homelab
 
     - Built and managed a bare metal Kubernetes cluster powered by Talos Linux, FluxCD, and Omni for comprehensive cluster management.
 
@@ -176,7 +186,7 @@ I’m a DevOps Engineer with hands-on experience in automating deployments using
 
     - Successfully deployed Linkding as a self-hosted bookmark management solution with external PostgreSQL database connectivity
 
-      - https:\/\/linkding.seyzahl.com
+    - https:\/\/linkding.seyzahl.com
 
     - Configured ExternalDNS and Cloudflare Tunnel for automated DNS management and secure external access to services.
 

@@ -41,9 +41,19 @@ Feb 2026 – present
 
 - Participating in DevSecOps transformation at a cutting-edge space technology company, managing enterprise tool chains for cross-functional teams building mission-critical software.
 
-- Managing CI/CD pipelines using GitHub Actions and Docker to streamline build, test, and deployment workflows across engineering teams.
+- Serving as primary DevOps on-call for production systems including mission-critical Launch and Early Orbit Phase (LEOP) operations supporting satellite launches.
 
-- Administering Kubernetes clusters and containerized workloads to support scalable, resilient application delivery.
+- Architected multi-organization GitHub App security infrastructure spanning 4 GitHub organizations and 13+ repositories, migrating from PAT-based to short-lived JWT token authentication with granular permission scoping.
+
+- Optimized CI/CD runner infrastructure saving 2+ minutes per workflow run and 3+ hours of compute time daily by pre-installing dependencies and eliminating IPv6 timeout delays affecting 40+ workflows.
+
+- Designed and deployed comprehensive Azure Monitor alerting system with PagerDuty integration covering AKS clusters, PostgreSQL databases, and storage accounts using reusable Terraform modules and Key Vault secrets management.
+
+- Identified and remediated security vulnerabilities in CI/CD pipelines including shell injection patterns and insecure authentication flows across multiple repositories.
+
+- Reduced InfluxDB error rate by 38% through root cause analysis of Grafana dashboard Flux queries and development of automated remediation tooling for 200+ affected dashboards.
+
+- Scaled GitHub Actions runner infrastructure by implementing new compute tiers (4/8/12 CPU variants) and horizontal node pool autoscaling to eliminate timeout issues for compute-intensive workloads.
 
 - Provisioning and managing cloud infrastructure on Microsoft Azure using Terraform and Ansible for reproducible, compliant environments.
 
@@ -170,16 +180,19 @@ Oct 2022 – Nov 2022
 **Additional:** Portuguese (fluent), Spanish (conversational), Korean (conversational)
 
 # <<section_title>>
-## **Actualize Coding Bootcamp**, Certificate in Web Development -- RemoteApr 2022 – July 2022
+## **Actualize Coding Bootcamp**, Certificate in Web Development -- Remote
+Apr 2022 – July 2022
 
 Completed a four-month full-stack web development bootcamp focusing on Ruby, Rails, JavaScript, Vue.js, API-driven development, Git, and team collaboration.
 
 
 
-## **Loyola Marymount University**, Coursework toward B.A. in Business Administration -- Los Angeles, CA, USAJan 2019 – June 2019
+## **Loyola Marymount University**, Coursework toward B.A. in Business Administration -- Los Angeles, CA, USA
+Jan 2019 – June 2019
 
 
 
-## **Pasadena City College**, A.A Degrees in Business, Natural Sciences, Humanities -- Pasadena, CA, USAJan 2015 – June 2018
+## **Pasadena City College**, A.A Degrees in Business, Natural Sciences, Humanities -- Pasadena, CA, USA
+Jan 2015 – June 2018
 
 
