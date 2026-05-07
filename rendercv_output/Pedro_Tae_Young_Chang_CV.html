@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
-        Pedro Tae Young Chang's CV
+        
     </title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
@@ -39,108 +39,203 @@
 
 <body>
     <article class="markdown-body">
-        <h1>Pedro Tae Young Chang's CV</h1>
-        <ul>
-        <li>Phone: +1 323 333 5181</li>
-        <li>Email: <a href="mailto:pedrotychang@gmail.com">pedrotychang@gmail.com</a></li>
-        <li>Location: Los Angeles</li>
-        <li>Website: <a href="https://pedrotchang.dev/">pedrotchang.dev</a></li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/pedrotchang">pedrotchang</a></li>
-        <li>GitHub: <a href="https://github.com/pedrotchang">pedrotchang</a></li>
-        </ul>
-        <h1>Summary</h1>
+        <h1>&lt;<cv.name>&gt;'s CV</h1>
+        <p>((<em> if cv.phone </em>))
+        - Phone: &lt;<cv.phone|replace("tel:", "")|replace("-"," ")>&gt;
+        ((<em> endif </em>))
+        ((<em> if cv.email </em>))
+        - Email: <a href="mailto:&lt;&lt;cv.email&gt;&gt;">&lt;<cv.email>&gt;</a>
+        ((<em> endif </em>))
+        ((<em> if cv.location </em>))
+        - Location: &lt;<cv.location>&gt;
+        ((<em> endif </em>))
+        ((<em> if cv.website </em>))
+        - Website: <a href="&lt;&lt;cv.website&gt;&gt;">&lt;<cv.website|replace("https://","")|replace("/","")>&gt;</a>
+        ((<em> endif </em>))
+        ((<em> if cv.social_networks </em>))
+            ((<em> for network in cv.social_networks </em>))
+        - &lt;<network.network>&gt;: <a href="&lt;&lt;network.url&gt;&gt;">&lt;<network.username>&gt;</a>
+            ((<em> endfor </em>))
+        ((<em> endif </em>))</p>
+        <h1>&lt;<section_title>&gt;</h1>
         <p>I’m a DevOps Engineer with hands-on experience in automating deployments using GitOps FluxCD, managing Kubernetes clusters on Talos Linux, and securing cloud environments with Azure Key Vault and External Secrets Operator. I’m proficient in deploying and scaling applications with Kubernetes, managing databases using CloudNative PG, and ensuring system reliability through monitoring with Prometheus and Grafana. I’m eager to leverage my technical skills, problem-solving abilities, and collaborative mindset to contribute to a forward-thinking team driving innovation in software delivery.</p>
-        <h1>Certificates</h1>
-        <h2>CKAD Certified Kubernetes Application Developer</h2>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>CKAD Certified Kubernetes Application Developer</strong></h2>
+        <p>June 2025</p>
         <ul>
-        <li>June 2025</li>
-        <li>Issuing Organization: Linux Foundation</li>
-        <li>Certificate ID: LF-8kytsvuaq1</li>
-        <li>Credential: https://www.credly.com/badges/aa8b881e-118c-4dcb-8f80-4e3f2de7d848/linked_in_profile</li>
+        <li>
+        <p>Issuing Organization: Linux Foundation</p>
+        </li>
+        <li>
+        <p>Certificate ID: LF-8kytsvuaq1</p>
+        </li>
+        <li>
+        <p>Credential: https://www.credly.com/badges/aa8b881e-118c-4dcb-8f80-4e3f2de7d848/linked_in_profile</p>
+        </li>
         </ul>
-        <h1>Experience</h1>
-        <h2>KubeCraft, DevOps Associate</h2>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>DevOps Engineer</strong>, True Anomaly</h2>
+        <p>Feb 2026 – present</p>
         <ul>
-        <li>Dec 2024 – present</li>
-        <li>Remote</li>
-        <li>Designed and maintained a sophisticated self-hosted infrastructure utilizing GitOps methodologies and modern DevOps practices - https://github.com/pedrotchang/homelab</li>
-        <li>Built and managed a bare metal Kubernetes cluster powered by Talos Linux, FluxCD, and Omni for comprehensive cluster management.</li>
-        <li>Implemented Cilium as the primary CNI solution across all clusters, prioritizing its advanced networking capabilities over traditional options like Flannel.</li>
-        <li>Deployed and managed CloudnativePG operator for PostgreSQL database orchestration, enabling reliable database services for applications.</li>
-        <li>Successfully deployed Linkding as a self-hosted bookmark management solution with external PostgreSQL database connectivity - https://linkding.seyzahl.com</li>
-        <li>Configured ExternalDNS and Cloudflare Tunnel for automated DNS management and secure external access to services.</li>
-        <li>Enhanced security through implementation of External Secrets Operator integrated with Azure Key Vault for centralized secrets management.</li>
-        <li>Established efficient CI/CD pipelines using FluxCD and Flux Operator for GitOps-based deployment, configuration management, and continuous reconciliation.</li>
-        <li>Implemented infrastructure monitoring with Grafana and Prometheus.</li>
-        <li>Automated dependency updates across applications using Mend Renovate Bot for consistent maintenance and security patching.</li>
+        <li>
+        <p>Participating in DevSecOps transformation at a cutting-edge space technology company, managing enterprise tool chains for cross-functional teams building mission-critical software.</p>
+        </li>
+        <li>
+        <p>Managing CI/CD pipelines using GitHub Actions and Docker to streamline build, test, and deployment workflows across engineering teams.</p>
+        </li>
+        <li>
+        <p>Administering Kubernetes clusters and containerized workloads to support scalable, resilient application delivery.</p>
+        </li>
+        <li>
+        <p>Provisioning and managing cloud infrastructure on Microsoft Azure using Terraform and Ansible for reproducible, compliant environments.</p>
+        </li>
+        <li>
+        <p>Implementing observability and monitoring solutions with Grafana, Loki, and InfluxDB to ensure system reliability and performance visibility.</p>
+        </li>
+        <li>
+        <p>Maintaining PostgreSQL databases and supporting data infrastructure requirements across development and production environments.</p>
+        </li>
+        <li>
+        <p>Automating operational workflows and infrastructure tasks using Python and Bash scripting to reduce manual effort and improve consistency.</p>
+        </li>
+        <li>
+        <p>Collaborating across teams using Jira and Confluence to align DevOps initiatives with engineering and program objectives.</p>
+        </li>
         </ul>
-        <h2>Zero2One, Manager</h2>
+        <h2><strong>DevOps Associate</strong>, KubeCraft -- Remote</h2>
+        <p>Dec 2024 – present</p>
         <ul>
-        <li>July 2025 – present</li>
-        <li>Los Angeles</li>
-        <li>Promoted from Host to Manager in 2 months, selected from a pool of 150+ employees at the world's only Tesla Diner—a restaurant integrated within a Tesla Supercharger station</li>
-        <li>Manage daily operations where customers order from their vehicles while charging, overseeing dual POS systems: Shift4 POS and Tesla's proprietary kiosk with integrated menu and payment processing</li>
-        <li>Diagnosed and resolved critical modifier discrepancy between Tesla kiosk and Shift4 POS causing order failures; added missing hot matcha modifier to Shift4 POS, eliminating recurring errors</li>
-        <li>Optimized KDS fulfillment workflow by reconfiguring SMS notifications from shakes KDS to dispatch KDS, ensuring customers receive timely text updates for car-side delivery</li>
-        <li>Identified single point of failure in front-of-house operations and successfully advocated for redundant kiosk installation, reducing order errors and improving customer experience</li>
-        <li>Serve as primary technical escalation point for staff, guest, and system issues, troubleshooting in real-time to maintain operational continuity in a fast-paced, technology-dependent environment</li>
+        <li>
+        <p>Designed and maintained a sophisticated self-hosted infrastructure utilizing GitOps methodologies and modern DevOps practices</p>
+        </li>
+        <li>
+        <p>https://github.com/pedrotchang/homelab</p>
+        </li>
+        <li>
+        <p>Built and managed a bare metal Kubernetes cluster powered by Talos Linux, FluxCD, and Omni for comprehensive cluster management.</p>
+        </li>
+        <li>
+        <p>Implemented Cilium as the primary CNI solution across all clusters, prioritizing its advanced networking capabilities over traditional options like Flannel.</p>
+        </li>
+        <li>
+        <p>Deployed and managed CloudnativePG operator for PostgreSQL database orchestration, enabling reliable database services for applications.</p>
+        </li>
+        <li>
+        <p>Successfully deployed Linkding as a self-hosted bookmark management solution with external PostgreSQL database connectivity</p>
+        </li>
+        <li>
+        <p>https://linkding.seyzahl.com</p>
+        </li>
+        <li>
+        <p>Configured ExternalDNS and Cloudflare Tunnel for automated DNS management and secure external access to services.</p>
+        </li>
+        <li>
+        <p>Enhanced security through implementation of External Secrets Operator integrated with Azure Key Vault for centralized secrets management.</p>
+        </li>
+        <li>
+        <p>Established efficient CI/CD pipelines using FluxCD and Flux Operator for GitOps-based deployment, configuration management, and continuous reconciliation.</p>
+        </li>
+        <li>
+        <p>Implemented infrastructure monitoring with Grafana and Prometheus.</p>
+        </li>
+        <li>
+        <p>Automated dependency updates across applications using Mend Renovate Bot for consistent maintenance and security patching.</p>
+        </li>
         </ul>
-        <h2>Brite Service Industries, IT Consultant</h2>
+        <h2><strong>Manager</strong>, Zero2One -- Los Angeles</h2>
+        <p>July 2025 – present</p>
         <ul>
-        <li>July 2024 – Dec 2024</li>
-        <li>Los Angeles</li>
-        <li>Collaborated directly with C-suite executives to design and implement strategic operational frameworks, resulting in a 25% enhancement in overall organizational performance through data-driven decision-making processes.</li>
-        <li>Crafted comprehensive pamphlets on Brite Service Industries and industry-specific topics, enhancing client comprehension by directly addressing top five most frequently misunderstood concepts within the service sector.</li>
-        <li>Directed the adoption of new technologies such as Teams, Calendly, and Loom, overseeing the onboarding of these integrations to boost productivity and communication with over 30 clients.</li>
+        <li>
+        <p>Promoted from Host to Manager in 2 months, selected from a pool of 150+ employees at the world's only Tesla Diner—a restaurant integrated within a Tesla Supercharger station</p>
+        </li>
+        <li>
+        <p>Manage daily operations where customers order from their vehicles while charging, overseeing dual POS systems: Shift4 POS and Tesla's proprietary kiosk with integrated menu and payment processing</p>
+        </li>
+        <li>
+        <p>Diagnosed and resolved critical modifier discrepancy between Tesla kiosk and Shift4 POS causing order failures; added missing hot matcha modifier to Shift4 POS, eliminating recurring errors</p>
+        </li>
+        <li>
+        <p>Optimized KDS fulfillment workflow by reconfiguring SMS notifications from shakes KDS to dispatch KDS, ensuring customers receive timely text updates for car-side delivery</p>
+        </li>
+        <li>
+        <p>Identified single point of failure in front-of-house operations and successfully advocated for redundant kiosk installation, reducing order errors and improving customer experience</p>
+        </li>
+        <li>
+        <p>Serve as primary technical escalation point for staff, guest, and system issues, troubleshooting in real-time to maintain operational continuity in a fast-paced, technology-dependent environment</p>
+        </li>
         </ul>
-        <h2>MediaX AI, Freelance</h2>
+        <h2><strong>IT Consultant</strong>, Brite Service Industries -- Los Angeles</h2>
+        <p>July 2024 – Dec 2024</p>
         <ul>
-        <li>June 2024 – Feb 2025</li>
-        <li>Los Angeles</li>
-        <li>Designed an advanced faceless YouTube automation system, integrating AI tools with API including Claude.ai and Eleven Labs; streamlined content generation processes, reducing video production time by 40%.</li>
-        <li>Implemented a robust automation solution for generating images and voiceovers directly from source materials, increasing output to 20+ videos weekly while enhancing overall production quality and consistency.</li>
-        <li>Launched a series of Airtable workflows that automated repetitive tasks, reducing manual data entry time by 10 hours weekly and freeing up resources for more strategic initiatives, ultimately enhancing project delivery.</li>
+        <li>
+        <p>Collaborated directly with C-suite executives to design and implement strategic operational frameworks, resulting in a 25% enhancement in overall organizational performance through data-driven decision-making processes.</p>
+        </li>
+        <li>
+        <p>Crafted comprehensive pamphlets on Brite Service Industries and industry-specific topics, enhancing client comprehension by directly addressing top five most frequently misunderstood concepts within the service sector.</p>
+        </li>
+        <li>
+        <p>Directed the adoption of new technologies such as Teams, Calendly, and Loom, overseeing the onboarding of these integrations to boost productivity and communication with over 30 clients.</p>
+        </li>
         </ul>
-        <h1>Projects</h1>
-        <h2>Homelab</h2>
+        <h2><strong>Freelance</strong>, MediaX AI -- Los Angeles</h2>
+        <p>June 2024 – Feb 2025</p>
         <ul>
-        <li>Feb 2025 – present</li>
-        <li><strong>Multi-platform architecture:</strong> Orchestrated 2 Kubernetes clusters with Sidero Omni (S3 backups), Proxmox hypervisor, and TrueNAS storage serving NFS/iSCSI to 11+ applications across 280+ declarative configuration files.</li>
-        <li><strong>Hybrid cloud networking:</strong> Deployed Pangolin server (AWS EC2) with Newt agent in Kubernetes for WireGuard-based, identity-aware reverse proxying of internet-exposed services; implemented Tailscale mesh VPN for private service access.</li>
-        <li><strong>Multi-cloud security:</strong> Integrated Azure Key Vault for secret management (Pangolin auth, database credentials), Azure Blob Storage for database backups, and AWS S3 for cluster snapshots with SOPS encryption for GitOps compliance.</li>
-        <li><strong>HA database infrastructure:</strong> Implemented CloudnativePG with 6+ PostgreSQL clusters (3-instance HA) featuring automated Barman backups and 14-day retention.</li>
-        <li><strong>Advanced networking:</strong> Configured Cilium CNI with eBPF L2 load balancing, Kubernetes Gateway API, Cloudflare Tunnels, and automated DNS management via ExternalDNS.</li>
-        <li><strong>Automated CI/CD:</strong> Built FluxCD GitOps pipeline with Mend Renovate Bot for continuous dependency updates and Prometheus/Grafana observability stack.</li>
+        <li>
+        <p>Designed an advanced faceless YouTube automation system, integrating AI tools with API including Claude.ai and Eleven Labs; streamlined content generation processes, reducing video production time by 40%.</p>
+        </li>
+        <li>
+        <p>Implemented a robust automation solution for generating images and voiceovers directly from source materials, increasing output to 20+ videos weekly while enhancing overall production quality and consistency.</p>
+        </li>
+        <li>
+        <p>Launched a series of Airtable workflows that automated repetitive tasks, reducing manual data entry time by 10 hours weekly and freeing up resources for more strategic initiatives, ultimately enhancing project delivery.</p>
+        </li>
         </ul>
-        <h2>Give Water Give Life | Non-Profit Website</h2>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>Homelab</strong></h2>
+        <p>Feb 2025 – present</p>
+        <p>Production-grade multi-platform homelab infrastructure using Kubernetes (Talos Linux), Proxmox, TrueNAS, and hybrid cloud services.</p>
         <ul>
-        <li>Oct 2022 – Nov 2022</li>
-        <li>Drove a successful website enhancement initiative alongside product management and design teams, elevating traffic levels by 30% while ensuring functionality and user experience across all devices.</li>
-        <li>Boosted outreach and produced donations by 10% to provide clean water to multiple villages.</li>
-        <li>Facilitated over 15 cross-functional meetings with designers to ensure alignment on client requirements; revitalized communication processes, contributing to a 20% reduction in project timelines and improving team collaboration.</li>
+        <li>
+        <p><strong>Multi-platform architecture:</strong> Orchestrated 2 Kubernetes clusters with Sidero Omni (S3 backups), Proxmox hypervisor, and TrueNAS storage serving NFS/iSCSI to 11+ applications across 280+ declarative configuration files.</p>
+        </li>
+        <li>
+        <p><strong>Hybrid cloud networking:</strong> Deployed Pangolin server (AWS EC2) with Newt agent in Kubernetes for WireGuard-based, identity-aware reverse proxying of internet-exposed services; implemented Tailscale mesh VPN for private service access.</p>
+        </li>
+        <li>
+        <p><strong>Multi-cloud security:</strong> Integrated Azure Key Vault for secret management (Pangolin auth, database credentials), Azure Blob Storage for database backups, and AWS S3 for cluster snapshots with SOPS encryption for GitOps compliance.</p>
+        </li>
+        <li>
+        <p><strong>HA database infrastructure:</strong> Implemented CloudnativePG with 6+ PostgreSQL clusters (3-instance HA) featuring automated Barman backups and 14-day retention.</p>
+        </li>
+        <li>
+        <p><strong>Advanced networking:</strong> Configured Cilium CNI with eBPF L2 load balancing, Kubernetes Gateway API, Cloudflare Tunnels, and automated DNS management via ExternalDNS.</p>
+        </li>
+        <li>
+        <p><strong>Automated CI/CD:</strong> Built FluxCD GitOps pipeline with Mend Renovate Bot for continuous dependency updates and Prometheus/Grafana observability stack.</p>
+        </li>
         </ul>
-        <h1>Skills</h1>
+        <h2><strong>Give Water Give Life | Non-Profit Website</strong></h2>
+        <p>Oct 2022 – Nov 2022</p>
         <ul>
-        <li>Languages: Python, Go, Ruby, JavaScript, HTML, CSS</li>
-        <li>Technologies: Kubernetes, FluxCD, Linux, Vim, Postgres, Rest-API, Git, GitHub, Jira, Notion, AI Tools</li>
-        <li>Additional: Portuguese (fluent), Spanish (conversational), Korean (conversational)</li>
+        <li>
+        <p>Drove a successful website enhancement initiative alongside product management and design teams, elevating traffic levels by 30% while ensuring functionality and user experience across all devices.</p>
+        </li>
+        <li>
+        <p>Boosted outreach and produced donations by 10% to provide clean water to multiple villages.</p>
+        </li>
+        <li>
+        <p>Facilitated over 15 cross-functional meetings with designers to ensure alignment on client requirements; revitalized communication processes, contributing to a 20% reduction in project timelines and improving team collaboration.</p>
+        </li>
         </ul>
-        <h1>Education</h1>
-        <h2>Actualize Coding Bootcamp, Certificate in Web Development</h2>
-        <ul>
-        <li>Apr 2022 – July 2022</li>
-        <li>Remote</li>
-        </ul>
-        <h2>Loyola Marymount University, Coursework toward B.A. in Business Administration</h2>
-        <ul>
-        <li>Jan 2019 – June 2019</li>
-        <li>Los Angeles, CA, USA</li>
-        </ul>
-        <h2>Pasadena City College, A.A Degrees in Business, Natural Sciences, Humanities</h2>
-        <ul>
-        <li>Jan 2015 – June 2018</li>
-        <li>Pasadena, CA, USA</li>
-        </ul>
+        <h1>&lt;<section_title>&gt;</h1>
+        <p><strong>Languages:</strong> Python, Go, Ruby, JavaScript, HTML, CSS</p>
+        <p><strong>Technologies:</strong> Kubernetes, Docker, Terraform, Ansible, Azure, GitHub Actions, FluxCD, Grafana, Loki, InfluxDB, Linux, Postgres, Git, Jira, Confluence</p>
+        <p><strong>Additional:</strong> Portuguese (fluent), Spanish (conversational), Korean (conversational)</p>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>Actualize Coding Bootcamp</strong>, Certificate in Web Development -- RemoteApr 2022 – July 2022</h2>
+        <p>Completed a four-month full-stack web development bootcamp focusing on Ruby, Rails, JavaScript, Vue.js, API-driven development, Git, and team collaboration.</p>
+        <h2><strong>Loyola Marymount University</strong>, Coursework toward B.A. in Business Administration -- Los Angeles, CA, USAJan 2019 – June 2019</h2>
+        <h2><strong>Pasadena City College</strong>, A.A Degrees in Business, Natural Sciences, Humanities -- Pasadena, CA, USAJan 2015 – June 2018</h2>
     </article>
 </body>
 
