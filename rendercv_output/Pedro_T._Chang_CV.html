@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        
+    </title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
+        integrity="sha512-Pmhg2i/F7+5+7SsdoUqKeH7UAZoVMYb1sxGOoJ0jWXAEHP0XV2H4CITyK267eHWp2jpj7rtqWNkmEOw1tNyYpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.css" integrity="sha384-PDbUeNCuE6bOPudPOgFyIUEy3UJawJVwr3XlGO90FIuf5qNIoTLSgOJo/dC2ZXV/" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.js" integrity="sha384-VkqWq8xtm5YQk1BBXczQ8/Sx+DlCzF8cuS43bZwmtVXzRFtyLTqTCdP7MKmKo+KN" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [{ left: '$$',  right: '$$',  display: false }]});"></script>
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <article class="markdown-body">
+        <h1>&lt;<cv.name>&gt;'s CV</h1>
+        <p>((* if cv.phone <em>))
+        - Phone: &lt;&lt;cv.phone|replace("tel:", "")|replace("-"," ")&gt;&gt;
+        ((</em> endif <em>))
+        ((</em> if cv.email <em>))
+        - Email: <a href="mailto:&lt;&lt;cv.email&gt;&gt;">&lt;<cv.email>&gt;</a>
+        ((</em> endif <em>))
+        ((</em> if cv.location <em>))
+        - Location: &lt;<cv.location>&gt;
+        ((</em> endif <em>))
+        ((</em> if cv.website <em>))
+        - Website: <a href="&lt;&lt;cv.website&gt;&gt;">&lt;&lt;cv.website|replace("https://","")|replace("/","")&gt;&gt;</a>
+        ((</em> endif <em>))
+        ((</em> if cv.social_networks <em>))
+            ((</em> for network in cv.social_networks <em>))
+        - &lt;<network.network>&gt;: <a href="&lt;&lt;network.url&gt;&gt;">&lt;<network.username>&gt;</a>
+            ((</em> endfor <em>))
+        ((</em> endif *))</p>
+        <h1>&lt;<section_title>&gt;</h1>
+        <p><strong>Self-starting, accountable Platform Engineer</strong> specializing in Kubernetes and self-service ephemeral environments. Takes platform work from design and implementation through production operations, with hands-on experience in GitOps, cloud infrastructure, and on-call reliability.</p>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>Platform Engineer</strong>, True Anomaly</h2>
+        <p>Feb 2026 – present</p>
+        <ul>
+        <li>
+        <p><strong>Demonstrated capacity for up to 1,000 concurrent environments</strong>, with scale bounded by available cloud capacity, by building a Go-based Kubernetes operator that provisions a complete, self-contained application stack and its own database for each pull request in approximately 5 minutes.</p>
+        </li>
+        <li>
+        <p><strong>Kept each preview environment current with developer changes</strong> by refreshing it from the pull request branch on new pushes, grouping paired frontend/backend pull requests into one environment, and automatically tearing the environment down when the pull request closes.</p>
+        </li>
+        <li>
+        <p><strong>Restored access to ephemeral environments</strong> by provisioning Kubernetes Gateway API listeners, leaf certificates, HTTPRoutes, and per-environment gRPC hosts, resolving mixed-content failures.</p>
+        </li>
+        <li>
+        <p><strong>Standardized service ingress</strong> by migrating services from nginx ingress to Istio Gateway and writing the cutover guide adopted by other teams.</p>
+        </li>
+        <li>
+        <p><strong>Replaced manual cluster changes with auditable GitOps</strong> by establishing a FluxCD repository that declares desired state once and reconciles it automatically.</p>
+        </li>
+        <li>
+        <p><strong>Reduced InfluxDB errors by 38%</strong> by root-causing Grafana Flux queries and automating remediation across <strong>200+ dashboards</strong>.</p>
+        </li>
+        <li>
+        <p><strong>Reclaimed 2+ minutes per run and 3+ hours of daily compute across 40+ workflows</strong> by pre-installing dependencies, removing IPv6 timeouts, and adding 4/8/12-CPU runner tiers with horizontal node-pool autoscaling.</p>
+        </li>
+        <li>
+        <p><strong>Secured GitHub automation across 4 organizations and 13+ repositories</strong> by migrating from PATs to short-lived JWTs with granular permissions and remediating shell-injection and insecure-authentication patterns.</p>
+        </li>
+        <li>
+        <p><strong>Expanded production alert coverage</strong> across AKS, PostgreSQL, and storage accounts by deploying Azure Monitor and PagerDuty with reusable Terraform modules and Key Vault-managed secrets.</p>
+        </li>
+        <li>
+        <p><strong>Unblocked flight-software hardware-in-the-loop testing</strong> by limiting elevated runner permissions to the affected runners instead of granting them fleet-wide.</p>
+        </li>
+        <li>
+        <p><strong>Advanced platform reliability and direction</strong> by serving as primary DevOps on-call for production and satellite LEOP operations, automating workflows in Python and Bash, and authoring DevEx roadmap designs.</p>
+        </li>
+        </ul>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>Homelab (KubeCraft)</strong></h2>
+        <p>Dec 2024 – present</p>
+        <p>GitOps-managed homelab spanning bare metal, virtualization, storage, and cloud.</p>
+        <ul>
+        <li>
+        <p><strong>Operated 2 Talos Linux Kubernetes clusters serving 11+ applications from 280+ declarative files</strong> using Sidero Omni, Proxmox, and TrueNAS NFS/iSCSI storage.</p>
+        </li>
+        <li>
+        <p><strong>Delivered highly available PostgreSQL for 6+ clusters</strong> using CloudNativePG with 3-instance HA, automated Barman backups, and 14-day retention.</p>
+        </li>
+        <li>
+        <p><strong>Unified cluster and external-service networking</strong> with Cilium eBPF L2 load balancing, Kubernetes Gateway API, Cloudflare Tunnels, and ExternalDNS.</p>
+        </li>
+        <li>
+        <p><strong>Protected multi-cloud secrets and backups</strong> using Azure Key Vault, Azure Blob Storage, AWS S3 snapshots, SOPS-encrypted GitOps state, and Pangolin identity-aware WireGuard access.</p>
+        </li>
+        <li>
+        <p><strong>Kept infrastructure dependencies current and observable</strong> through FluxCD reconciliation, Mend Renovate Bot, Prometheus, and Grafana.</p>
+        </li>
+        </ul>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>CKAD - Certified Kubernetes Application Developer, Linux Foundation</strong></h2>
+        <p>June 2025</p>
+        <ul>
+        <li>Credential: https://www.credly.com/badges/aa8b881e-118c-4dcb-8f80-4e3f2de7d848/linked_in_profile</li>
+        </ul>
+        <h1>&lt;<section_title>&gt;</h1>
+        <p><strong>Languages:</strong> Go, Python, Bash, TypeScript/JavaScript, Ruby, SQL</p>
+        <p><strong>Kubernetes &amp; Platform:</strong> <strong>Kubernetes</strong> (CKAD), CRDs &amp; operators (controller-runtime), Helm, Kustomize, FluxCD (GitOps), Istio, Cilium, Gateway API, Talos Linux, CloudNativePG, Docker</p>
+        <p><strong>Cloud &amp; IaC:</strong> <strong>Azure</strong> (AKS, Key Vault, Monitor, Blob), <strong>AWS</strong> (EC2, S3, Bedrock), Terraform, Ansible, Linux</p>
+        <p><strong>CI/CD &amp; Observability:</strong> GitHub Actions, GitHub Apps &amp; GHES, Renovate, Prometheus, Grafana, Loki, InfluxDB, OpenTelemetry, PagerDuty, PostgreSQL, Jira, Confluence</p>
+        <p><strong>Additional:</strong> Portuguese (fluent), Spanish (conversational), Korean (conversational)</p>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>Actualize Coding Bootcamp</strong>, Certificate in Web Development -- Remote</h2>
+        <p>Apr 2022 – July 2022</p>
+        <p>Four-month full-stack program in Ruby, Rails, JavaScript, Vue.js, API-driven development, and Git-based team collaboration.</p>
+        <h2><strong>Pasadena City College</strong>, A.A. Degrees in Business, Natural Sciences, Humanities -- Pasadena, CA</h2>
+        <p>Jan 2015 – June 2018</p>
+    </article>
+</body>
+
+</html>

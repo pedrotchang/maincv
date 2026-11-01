@@ -1,0 +1,186 @@
+cv:
+  name: Pedro T. Chang
+  location: Los Angeles
+  email: pedrotychang@gmail.com
+  phone: +1-323-333-5181
+  website: https://pedrotchang.dev
+  social_networks:
+  - network: LinkedIn
+    username: pedrotchang
+  - network: GitHub
+    username: pedrotchang
+  sections:
+    summary:
+    - '**Self-starting, accountable Platform Engineer** specializing in Kubernetes and self-service ephemeral environments. Takes platform work from design and implementation through production operations, with hands-on experience in GitOps, cloud infrastructure, and on-call reliability.'
+    experience:
+    - company: True Anomaly
+      position: Platform Engineer
+      start_date: 2026-02
+      end_date: present
+      highlights:
+      - '**Demonstrated capacity for up to 1,000 concurrent environments**, with scale bounded by available cloud capacity, by building a Go-based Kubernetes operator that provisions a complete, self-contained application stack and its own database for each pull request in approximately 5 minutes.'
+      - '**Kept each preview environment current with developer changes** by refreshing it from the pull request branch on new pushes, grouping paired frontend/backend pull requests into one environment, and automatically tearing the environment down when the pull request closes.'
+      - '**Restored access to ephemeral environments** by provisioning Kubernetes Gateway API listeners, leaf certificates, HTTPRoutes, and per-environment gRPC hosts, resolving mixed-content failures.'
+      - '**Standardized service ingress** by migrating services from nginx ingress to Istio Gateway and writing the cutover guide adopted by other teams.'
+      - '**Replaced manual cluster changes with auditable GitOps** by establishing a FluxCD repository that declares desired state once and reconciles it automatically.'
+      - '**Reduced InfluxDB errors by 38%** by root-causing Grafana Flux queries and automating remediation across **200+ dashboards**.'
+      - '**Reclaimed 2+ minutes per run and 3+ hours of daily compute across 40+ workflows** by pre-installing dependencies, removing IPv6 timeouts, and adding 4/8/12-CPU runner tiers with horizontal node-pool autoscaling.'
+      - '**Secured GitHub automation across 4 organizations and 13+ repositories** by migrating from PATs to short-lived JWTs with granular permissions and remediating shell-injection and insecure-authentication patterns.'
+      - '**Expanded production alert coverage** across AKS, PostgreSQL, and storage accounts by deploying Azure Monitor and PagerDuty with reusable Terraform modules and Key Vault-managed secrets.'
+      - '**Unblocked flight-software hardware-in-the-loop testing** by limiting elevated runner permissions to the affected runners instead of granting them fleet-wide.'
+      - '**Advanced platform reliability and direction** by serving as primary DevOps on-call for production and satellite LEOP operations, automating workflows in Python and Bash, and authoring DevEx roadmap designs.'
+    projects:
+    - name: Homelab (KubeCraft)
+      start_date: 2024-12
+      end_date: present
+      summary: GitOps-managed homelab spanning bare metal, virtualization, storage, and cloud.
+      highlights:
+      - '**Operated 2 Talos Linux Kubernetes clusters serving 11+ applications from 280+ declarative files** using Sidero Omni, Proxmox, and TrueNAS NFS/iSCSI storage.'
+      - '**Delivered highly available PostgreSQL for 6+ clusters** using CloudNativePG with 3-instance HA, automated Barman backups, and 14-day retention.'
+      - '**Unified cluster and external-service networking** with Cilium eBPF L2 load balancing, Kubernetes Gateway API, Cloudflare Tunnels, and ExternalDNS.'
+      - '**Protected multi-cloud secrets and backups** using Azure Key Vault, Azure Blob Storage, AWS S3 snapshots, SOPS-encrypted GitOps state, and Pangolin identity-aware WireGuard access.'
+      - '**Kept infrastructure dependencies current and observable** through FluxCD reconciliation, Mend Renovate Bot, Prometheus, and Grafana.'
+    certificates:
+    - name: CKAD - Certified Kubernetes Application Developer, Linux Foundation
+      date: 2025-06
+      highlights:
+      - 'Credential: https://www.credly.com/badges/aa8b881e-118c-4dcb-8f80-4e3f2de7d848/linked_in_profile'
+    skills:
+    - label: Languages
+      details: Go, Python, Bash, TypeScript/JavaScript, Ruby, SQL
+    - label: Kubernetes & Platform
+      details: '**Kubernetes** (CKAD), CRDs & operators (controller-runtime), Helm, Kustomize, FluxCD (GitOps), Istio, Cilium, Gateway API, Talos Linux, CloudNativePG, Docker'
+    - label: Cloud & IaC
+      details: '**Azure** (AKS, Key Vault, Monitor, Blob), **AWS** (EC2, S3, Bedrock), Terraform, Ansible, Linux'
+    - label: CI/CD & Observability
+      details: GitHub Actions, GitHub Apps & GHES, Renovate, Prometheus, Grafana, Loki, InfluxDB, OpenTelemetry, PagerDuty, PostgreSQL, Jira, Confluence
+    - label: Additional
+      details: Portuguese (fluent), Spanish (conversational), Korean (conversational)
+    education:
+    - institution: Actualize Coding Bootcamp
+      area: Web Development
+      degree: Certificate
+      start_date: 2022-04
+      end_date: 2022-07
+      location: Remote
+      summary: Four-month full-stack program in Ruby, Rails, JavaScript, Vue.js, API-driven development, and Git-based team collaboration.
+    - institution: Pasadena City College
+      area: Business, Natural Sciences, Humanities
+      degree: A.A. Degrees
+      start_date: 2015-01
+      end_date: 2018-06
+      location: Pasadena, CA
+design:
+  theme: engineeringresumes
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_footer: false
+    show_top_note: true
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    footer: rgb(128, 128, 128)
+    top_note: rgb(128, 128, 128)
+  typography:
+    line_spacing: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+    font_family:
+      body: Source Sans 3
+      name: Source Sans 3
+      connections: Source Sans 3
+      section_titles: Source Sans 3
+    font_size:
+      body: 10pt
+      name: 25pt
+      section_titles: 1.2em
+    bold:
+      name: true
+      section_titles: true
+    small_caps:
+      section_titles: false
+  links:
+    underline: false
+    show_external_link_icon: true
+  header:
+    alignment: center
+    photo_width: 3.5cm
+    space_below_name: 0.7cm
+    space_below_connections: 0.7cm
+    connections:
+      phone_number_format: national
+      show_icons: true
+      separator: ''
+      space_between_connections: 0.5cm
+  section_titles:
+    type: with_partial_line
+    line_thickness: 0.5pt
+    space_above: 0.55cm
+    space_below: 0.3cm
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 0.4cm
+    show_time_spans_in: []
+  entries:
+    date_and_location_width: 4.15cm
+    side_space: 0.2cm
+    space_between_columns: 0.1cm
+    allow_page_break: true
+    short_second_row: false
+    highlights:
+      bullet: •
+      space_left: 0.4cm
+      space_above: 0.25cm
+      space_between_items: 0.19cm
+      space_between_bullet_and_text: 0.5em
+    summary:
+      space_left: 0cm
+  templates:
+    single_date: MONTH_ABBREVIATION YEAR
+    date_range: START_DATE – END_DATE
+    one_line_entry:
+      main_column: '**LABEL:** DETAILS'
+    education_entry:
+      main_column: '**INSTITUTION**, DEGREE_WITH_AREA -- LOCATION
+
+        SUMMARY
+
+        HIGHLIGHTS'
+      date_and_location_column: DATE
+    normal_entry:
+      main_column: '**NAME**
+
+        SUMMARY
+
+        HIGHLIGHTS'
+      date_and_location_column: 'LOCATION
+
+        DATE'
+    experience_entry:
+      main_column: '**POSITION**, COMPANY -- LOCATION
+
+        SUMMARY
+
+        HIGHLIGHTS'
+      date_and_location_column: DATE
+    publication_entry:
+      main_column: '**TITLE**
+
+        SUMMARY
+
+        AUTHORS
+
+        URL (JOURNAL)'
+      date_and_location_column: DATE
+locale:
+  language: english
+settings:
+  current_date: today
+  bold_keywords: []
